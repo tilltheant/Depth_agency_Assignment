@@ -116,7 +116,7 @@ a {
   background-color: white;
 }
 
-@media only screen and (min-width: 725px) {
+@media only screen and (min-width: 767px) {
   .nav-menu {
     width: 50%;
     padding-right: 3em;
@@ -152,20 +152,21 @@ a {
   text-align: center;
 }
 .landingpage img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .landingpage h1 {
   position: absolute;
   top: 70%;
-  left:20%;
+  left: 20%;
 }
 
 .cta-container {
   display: flex;
   align-items: stretch;
   padding-top: 1em;
+  justify-content: space-around;
 }
 
 .ctabutton {
@@ -205,10 +206,9 @@ a {
   height: 100%;
 }
 
-@media only screen and (min-width: 725px) {
+@media only screen and (min-width:  767px) {
   .content-wrapper {
     flex-direction: row;
-    
   }
 
   .content-wrapper {
@@ -282,7 +282,7 @@ footer {
   display: none;
 }
 
-@media only screen and (min-width: 780px) {
+@media only screen and (min-width: 1023px) {
   footer {
     display: flex;
   }
